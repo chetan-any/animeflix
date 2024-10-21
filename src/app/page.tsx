@@ -9,7 +9,7 @@ export default async function HomePage() {
   return (
     <>
       <main
-        className={`flex min-h-screen flex-col items-center bg-dark-1 pb-10`}
+        className={`flex min-h-screen flex-col items-center bg-dark-1 pb-10 xl:px-28`}
       >
         <section
           className={`flex items-center gap-20 bg-hero bg-cover bg-top px-8 py-20 md:px-14`}
@@ -40,11 +40,11 @@ export default async function HomePage() {
         </section>
 
         {/* Anime list */}
-        <section className={`space-y-10 p-2 py-16 sm:px-20 md:px-10`}>
+        <section className={`space-y-10 p-2 py-16 sm:px-10 md:px-10`}>
           <h2 className={`text-3xl font-semibold`}>Explore Anime</h2>
 
           <div
-            className={`grid grid-cols-1 content-stretch justify-items-center gap-x-10 gap-y-10 sm:grid-cols-2 md:grid-cols-3 md:gap-x-8 lg:grid-cols-4 lg:gap-x-4`}
+            className={`grid grid-cols-1 content-stretch justify-items-center gap-x-10 gap-y-10 sm:grid-cols-2 md:gap-x-16 lg:grid-cols-3 lg:gap-x-8 2xl:grid-cols-4`}
           >
             {data}
           </div>

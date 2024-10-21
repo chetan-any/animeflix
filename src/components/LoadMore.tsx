@@ -30,7 +30,7 @@ export default function LoadMore() {
   return (
     <>
       <div
-        className={`grid grid-cols-1 content-stretch justify-items-center gap-x-10 gap-y-10 sm:grid-cols-2 md:grid-cols-3 md:gap-x-8 lg:grid-cols-4 lg:gap-x-4`}
+        className={`grid grid-cols-1 content-stretch justify-items-center gap-x-10 gap-y-10 sm:grid-cols-2 md:gap-x-8 lg:grid-cols-3 lg:gap-x-6 2xl:grid-cols-4`}
       >
         {data}
       </div>

@@ -36,7 +36,7 @@ export default function AnimeCard({ anime, index }: AnimeCardProps) {
       animate={`visible`}
       whileHover={{ scale: 1.02, transition: { bounce: 0.2, delay: 0 } }}
       transition={{ delay: index * 0.2, ease: "easeInOut", duration: 0.5 }}
-      className={`relative w-full max-w-[280px] rounded-xl bg-dark-2 pb-3 shadow-2xl sm:px-0`}
+      className={`relative w-full max-w-[280px] rounded-xl bg-dark-2 pb-3 shadow-2xl sm:px-0 md:max-w-[300px] lg:max-w-[280px]`}
     >
       <Link
         href={`https://aniwatchtv.to/search?keyword=${anime.name}`}
